@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# LDS006
 LDS-006 Laser Unit python handler
 =======
 # Reverse Engineered Python Class for LDS-006 Laser Unit Data
@@ -79,4 +77,3 @@ Each **22-byte pack** consists of:
   - Distances clipped at approximately **120mm**, resulting in `0x0000` (treated as `None`).
 - **Handler Behavior**:
   - The handler may return `None` values due to the above conditions.
->>>>>>> 8133c4b (Initial commit)
