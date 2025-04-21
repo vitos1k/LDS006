@@ -1,7 +1,7 @@
 LDS-006 Laser Unit python handler
 =======
-# Reverse Engineered Python Class for LDS-006 Laser Unit Data
-
+## Reverse Engineered Python Class for LDS-006 Laser Unit Data
+![LDS-006 Unit](./images/photo.jpg)
 ## Overview
 
 This document describes a reverse-engineered Python class to read and parse data from the LDS-006
@@ -77,3 +77,6 @@ Each **22-byte pack** consists of:
   - Distances clipped at approximately **120mm**, resulting in `0x0000` (treated as `None`).
 - **Handler Behavior**:
   - The handler may return `None` values due to the above conditions.
+
+## Screenshot of lidar_visualization.py
+![visualization](./pictures/lidar_out.png)
