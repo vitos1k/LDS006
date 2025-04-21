@@ -79,4 +79,4 @@ Each **22-byte pack** consists of:
   - The handler may return `None` values due to the above conditions.
 
 ## Screenshot of lidar_visualization.py
-![visualization](./pictures/lidar_out.png)
+![visualization](./images/lidar_out.png)
